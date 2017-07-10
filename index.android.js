@@ -3,4 +3,4 @@
 import { AppRegistry } from 'react-native'
 import App from './build'
 
-AppRegistry.registerComponent('FootbalFan', () => App)
+AppRegistry.registerComponent('FootballFan', () => App)

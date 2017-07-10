@@ -1,7 +1,5 @@
 # Football Fan Application
 
-[![Build Status][ci-image]][ci-url] [![dependencies][dependencies-image]][dependencies-url] [![dev-dependencies][dev-dependencies-image]][dev-dependencies-url]
-
 Minimal template of a [React Native](https://facebook.github.io/react-native/) project with [Typescript](https://www.typescriptlang.org/).
 
 > **This project has been updated but the Medium guide has not**. Please, use this repository as reference.
@@ -61,7 +59,7 @@ This project uses Typescript + Jest. Run the test suite with:
 yarn test
 ```
 
-# ---RUN APPLICATION IN DEV MODE---
+# How to run application in dev mode
 
 quick run all things together:
 # One terminal for build and watch for changes
@@ -73,14 +71,15 @@ npm run android
 
 for app update on device emulator tap twice on R button
 
-
-# ---ANDROID EMULATOR---
-
 #  run Android device emulator
 emulator -avd Nexus_5X_API_25 -netdelay none -netspeed full
 
 # check devices list
 emulator -list-avds
+
+# TEMPORARY FIXES:
+1. in types react-redux:
+export class Provider extends React.Component<ProviderProps, {}> { }
 
 
 
