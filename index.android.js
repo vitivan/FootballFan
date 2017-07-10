@@ -1,6 +1,6 @@
 'use strict'
 
-import { AppRegistry } from 'react-native'
-import App from './build'
+import { AppRegistry } from 'react-native';
+import App from './build';
 
-AppRegistry.registerComponent('FootballFan', () => App)
+AppRegistry.registerComponent('FootbalFan', () => App);

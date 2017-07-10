@@ -26,7 +26,7 @@ class Container extends React.Component<Props, void> {
 
 const mapStateToProps = (state: any, ownProps: any) => {
   return {
-    count: state.counter.get('count')
+    count: state.counter.count
   };
 };
 
